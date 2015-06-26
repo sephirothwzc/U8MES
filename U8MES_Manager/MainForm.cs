@@ -10,11 +10,19 @@ using System.Windows.Forms;
 
 namespace U8MES_Manager
 {
+    /// <summary>
+    /// 主窗体
+    /// </summary>
     public partial class MainForm : Form
     {
         public MainForm()
         {
             InitializeComponent();
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
